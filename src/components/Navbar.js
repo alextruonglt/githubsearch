@@ -1,9 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 import { useAuth0 } from '@auth0/auth0-react';
+import Search from './Search';
+import User from './User';
 
 const Navbar = () => {
-  return <h2>navbar component</h2>;
+  return (
+  <h1>navbar</h1>
+  )
 };
 
 const Wrapper = styled.nav`
