@@ -48,12 +48,8 @@ const UserInfo = () => {
 
 // To Iterate Over the Items Array
 const itemsEl = items.map((item) =>{
-
   return <Item key={item.id} {...item}></Item>
 })
-
-
-
 
 
   return <section className="section">
